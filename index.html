@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Stopwatch</title>
+</head>
+<body>
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="stopwatch_PNG36.png" width="250px" />
+  </div>
+
+  <!-- Title Text -->
+  <h2 class="title-text">Stopwatch</h2>
+
+  <!-- Main Timer Display Section -->
+  <div class="main-container">
+    <span class="time-txt" id="hour">00</span>
+    <span class="text">Hr</span>
+
+    <span class="time-txt" id="minutes">00</span>
+    <span class="text">Min</span>
+
+    <span class="time-txt" id="seconds">00</span>
+    <span class="text">Sec</span>
+
+  </div>
+  <!-- Buttons Section -->
+  <div class="btn-container">
+    <button class="start-btn btn" onclick="startTimer()">Start</button>
+    <button class="pause-btn btn" onclick="pauseTimer()">Pause</button>
+    <button class="reset-btn btn" onclick="resetTimer()">Reset</button>
+  </div>
+</body>
+</html>
